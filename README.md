@@ -9,5 +9,5 @@ You can see my solution here: [Netlify](https://survey-form-freecodecamp-by-vini
 
 ## Social Medias
 [Linkedin](https://www.linkedin.com/in/viniciussmartins/)
-[Instagram](https://www.twitter.com/viniciussnitram)
+[Instagram](https://www.instagram.com/viniciussnitram)
 [Twitter](https://www.twitter.com/viniciusnitram)
