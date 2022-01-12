@@ -3,6 +3,12 @@ body {
     padding: 0;
     margin: 0;
 
+    background-image: linear-gradient(115deg, rgba(58, 58, 158, 0.8), rgba(136, 136, 206, 0.7)), url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 
 #main {
@@ -13,12 +19,6 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-
-    background: linear-gradient(115deg, rgba(58, 58, 158, 0.8), rgba(136, 136, 206, 0.7)), url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 
 }
 
@@ -44,7 +44,6 @@ body {
 
     display: flex;
     flex-direction: column;
-    opacity: 0.8;
 
     width: 640px;
 
@@ -52,9 +51,7 @@ body {
 
     border-radius: 5px;
 
-    background-color: #282847;
-
-    z-index: 500;
+    background-color: rgba(40, 40, 71, 0.8);
 
 }
 
@@ -125,6 +122,10 @@ label {
 
     margin-bottom: 30px;
 
+    border: 0;
+
+    outline: none;
+
 }
 
 #submit {
@@ -138,5 +139,11 @@ label {
     border-radius: 2px;
 
     font-size: 17px;
+
+}
+
+#submit:hover {
+
+    cursor: pointer;
 
 }
